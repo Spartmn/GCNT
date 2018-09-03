@@ -30,23 +30,101 @@
     <nav class="main-navigation">
       <h2 class="visually-hidden">Главное меню</h2>
       <ul class="main-menu">
-        <li><a href="#">Главная</a></li>
-        <li><a href="#">Учреждения</a></li>
-        <li><a href="#">Услуги</a></li>
-        <li><a href="#">Коллективы</a></li>
-        <li><a href="#">Проекты</a></li>
+        <li><a href="#">Главная</a>
+          <ul>
+            <li><a href="#">Устав</a> </li>
+            <li><a href="#">Структура</a></li>
+            <li><a href="#">История</a></li>
+            <li><a href="#">Отделы</a>
+              <ul>
+                <li><a href="#">Народное творчество</a></li>
+                <li><a href="#">Досуговая деятельность</a></li>
+                <li><a href="#">Фольклор</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Планы</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Учреждения</a>
+          <ul>
+            <li><a href="#">ФИЛИАЛ № 1 «Сельский клуб п. ПОТАПОВО»</a></li>
+            <li><a href="#">ФИЛИАЛ № 2 «Сельский клуб п. ЛЕВИНСКИЕ ПЕСКИ» </a></li>
+            <li><a href="#">ФИЛИАЛ № 3 «Сельский клуб п. ВОЛОЧАНКА»</a></li>
+            <li><a href="#">ФИЛИАЛ № 4 «Сельский клуб п. УСТЬ-АВАМ»</a></li>
+            <li><a href="#">ФИЛИАЛ № 5 «Сельский клуб п. ХАНТАЙСКОЕ ОЗЕРО»</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Услуги</a>
+          <ul>
+            <li><a href="#">АРТ-МАСТЕР</a></li>
+            <li><a href="#">ПЕРЕЧЕНЬ УСЛУГ</a></li>
+            <li><a href="#">РЕКЛАМА</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Коллективы</a>
+          <ul>
+            <li><a href="#">СЕМЕЙНЫЙ НЕНЕЦКИЙ КЛУБ «МАЙ' МА»</a></li>
+            <li><a href="#">НЕЕЦКАЯ СТУДИЯ «Я'ВАЛ»</a></li>
+            <li><a href="#">СЕМЕЙНЫЙ КИРГИЗСКИЙ КЛУБ «КАРА-ЖОРГО»</a></li>
+            <li><a href="#">СЕМЕЙНЫЙ ДОЛГАНСКИЙ КЛУБ «БИИРГЭ»</a></li>
+            <li><a href="#">ЭТНО-ФОЛЬКЛОРНАЯ СТУДИЯ «ОЛОНХО»</a></li>
+            <li><a href="#">ВОКАЛЬНЫЙ АНСАМБЛЬ «УКРАИНОЧКА»</a></li>
+            <li><a href="#">АНСАМБЛЬ РУССКОЙ ПЕСНИ «ИВУШКА»</a></li>
+            <li><a href="#">ХОР ДОЛГАНСКОЙ ПЕСНИ «АРАДУОЙ»</a></li>
+            <li><a href="#">КРУЖОК ПО ХУДОЖЕСТВЕННОЙ ВЫШИВКИ БИСЕРОМ «УУС ОГОЛОР»</a></li>
+            <li><a href="#">КРУЖОК ПО ДЕКОРАТИВНО-ПРИКЛАДНОМУ ТВОРЧЕСТВУ «МАСТЕРСКАЯ ЧУДЕС»</a></li>
+            <li><a href="#">СТУДИЯ ПО ДЕКОРТИВНО-ПРИКЛАДНОГО ТВОРЧЕСТВА «БАРАКСАН»</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Проекты</a>
+          <ul>
+            <li><a href="#">ФЕСТИВАЛИ</a></li>
+            <li><a href="#">КОНКУРСЫ</a></li>
+            <li><a href="#">ВЫСТАВКИ</a></li>
+            <li><a href="#">ГРАНТЫ</a></li>
+          </ul>
+        </li>
         <li><a href="#">Новости</a></li>
-        <li><a href="#">Фонды</a></li>
+        <li><a href="#">Фонды</a>
+          <ul>
+            <li><a href="#">ИЗОБРАЗИТЕЛЬНОЕ ИСКУССТВО </a>
+              <ul>
+                <li><a href="#">ГРАФИКА</a></li>
+                <li><a href="#">ЖИВОПИСЬ</a></li>
+              </ul>
+            </li>
+            <li><a href="#">ДЕКОРТИВНО-ПРИКАДНОЕ ИСКУССТВО </a>
+              <ul>
+                <li><a href="#">РЕЗНАЯ КОСТЬ</a></li>
+                <li><a href="#">ХУДОЖЕСТВЕННАЯ ВЫШИВКА БИСЕРОМ</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
       </ul>
     </nav>
   </section>
   <section class="column-right">
     <div class="top-slider">
       <h2 class="visually-hidden">Слайлер</h2>
+      <input class="visually-hidden" id="slider-1" type="radio" name="slider-group" value="slider-1" checked>
+      <input class="visually-hidden" id="slider-2" type="radio" name="slider-group" value="slider-2">
+      <input class="visually-hidden" id="slider-3" type="radio" name="slider-group" value="slider-3">
+      <div class="slider-control">
+        <label class="label-slider-1" for="slider-1">
+          <span class="visually-hidden">Слайд 1</span>
+        </label>
+        <label class="label-slider-2" for="slider-2">
+          <span class="visually-hidden">Слайд 2</span>
+        </label>
+        <label class="label-slider-3" for="slider-3">
+          <span class="visually-hidden">Слайд 3</span>
+        </label>
+      </div>
       <ul class="slide-list">
-        <li>Фото-1</li>
-        <li>Фото-2</li>
-        <li>Фото-3</li>
+        <li class="slider-item slider-1"><img src="image/slide-1.jpg" alt="Фото-1" width="930px" height="400px"></li>
+        <li class="slider-item slider-2"><img src="image/slide-2.jpg" alt="Фото-2" width="930px" height="400px"></li>
+        <li class="slider-item slider-3"><img src="image/slide-3.jpg" alt="Фото-3" width="930px" height="400px"></li>
       </ul>
     </div>
     <div class="">
